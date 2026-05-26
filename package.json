@@ -1,0 +1,15 @@
+{
+  "name": "lossless-tavern",
+  "version": "0.1.0",
+  "description": "Lossless Context Management for SillyTavern (酒馆助手无损上下文管理)",
+  "private": true,
+  "scripts": {
+    "build": "node esbuild.config.mjs",
+    "build:dev": "node esbuild.config.mjs --dev",
+    "watch": "node esbuild.config.mjs --watch"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.0",
+    "typescript": "^5.7.0"
+  }
+}
